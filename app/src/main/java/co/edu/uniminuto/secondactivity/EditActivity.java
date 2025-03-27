@@ -39,7 +39,7 @@ public class EditActivity extends AppCompatActivity {
         btnDelete.setOnClickListener(v -> deleteTask());
     }
 
-    // Método para actualizar la tarea
+    // Metodo para actualizar la tarea
     private void updateTask() {
         String updatedTask = etEditTask.getText().toString().trim();
         if (!updatedTask.isEmpty()) {
@@ -52,7 +52,7 @@ public class EditActivity extends AppCompatActivity {
         }
     }
 
-    // Método para eliminar la tarea
+    // Metodo para eliminar la tarea
     private void deleteTask() {
         Intent resultIntent = new Intent();
         resultIntent.putExtra("position", position);
