@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SecondActivity</string>
+    <string name="etTask">Ingrese la tarea</string>
+    <string name="btnTask">Agregar tarea</string>
+    <string name="edit_task_title">Editar Tarea</string>
+    <string name="save_button">Guardar</string>
+    <string name="delete_button">Eliminar</string>
+    <string name="search_hint">Buscar una tarea</string>
+    <string name="no_task_message">Por favor, ingrese una tarea</string>
+    <string name="task_deleted_message">Tarea eliminada</string>
+    <string name="task_updated_message">Tarea actualizada</string>
+    <string name="error_task_not_found">Error: Tarea no encontrada</string>
+</resources>
