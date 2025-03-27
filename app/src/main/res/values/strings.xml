@@ -3,7 +3,7 @@
     <string name="etTask">Ingrese la tarea</string>
     <string name="btnTask">Agregar tarea</string>
     <string name="edit_task_title">Editar Tarea</string>
-    <string name="save_button">Guardar</string>
+    <string name="save_button">Editar</string>
     <string name="delete_button">Eliminar</string>
     <string name="search_hint">Buscar una tarea</string>
     <string name="no_task_message">Por favor, ingrese una tarea</string>
