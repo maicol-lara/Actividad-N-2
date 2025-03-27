@@ -34,7 +34,7 @@ public class EditActivity extends AppCompatActivity {
 
         etEditTask.setText(task);
 
-        // Configura los botones de actualizar y eliminar
+        // Configura los botones de editar y eliminar
         btnUpdate.setOnClickListener(v -> updateTask());
         btnDelete.setOnClickListener(v -> deleteTask());
     }
@@ -44,9 +44,9 @@ public class EditActivity extends AppCompatActivity {
         String updatedTask = etEditTask.getText().toString().trim();
         if (!updatedTask.isEmpty()) {
             Intent resultIntent = new Intent();
-            resultIntent.putExtra("edited", updatedTask); // Usa "edited" para mantener la consistencia
+            resultIntent.putExtra("edited", updatedTask); 
             resultIntent.putExtra("position", position);
-            resultIntent.putExtra("deleted", false); // Usa "deleted" para mantener la consistencia
+            resultIntent.putExtra("deleted", false); 
             setResult(RESULT_OK, resultIntent);
             finish();
         }
@@ -56,7 +56,7 @@ public class EditActivity extends AppCompatActivity {
     private void deleteTask() {
         Intent resultIntent = new Intent();
         resultIntent.putExtra("position", position);
-        resultIntent.putExtra("deleted", true); // Usa "deleted" para mantener la consistencia
+        resultIntent.putExtra("deleted", true);
         setResult(RESULT_OK, resultIntent);
         finish();
     }
